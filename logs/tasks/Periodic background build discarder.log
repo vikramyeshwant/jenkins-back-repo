@@ -14,3 +14,11 @@ Offering c-project-source to Project Build Discarder
 Processing test_job
 Offering test_job to Project Build Discarder
 Finished at Wed Mar 02 07:58:24 UTC 2022. 2ms
+Started at Wed Mar 02 08:58:24 UTC 2022
+Processing abc
+Offering abc to Project Build Discarder
+Processing c-project-source
+Offering c-project-source to Project Build Discarder
+Processing test_job
+Offering test_job to Project Build Discarder
+Finished at Wed Mar 02 08:58:24 UTC 2022. 3ms
