@@ -1,0 +1,24 @@
+Started by user [8mha:////4M78+LcWoEmXPBP2h+YlpUF8hZs8Nto6qMYJkyAKFmmpAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgYR/dLi1CL9sszsosTcytTijPLEvBIAFhaPgckAAAA=[0mvikram yeshwant
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/c-project-source
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/c-project-source/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/vikramyeshwant/c-project-source.git # timeout=10
+Fetching upstream changes from https://github.com/vikramyeshwant/c-project-source.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/vikramyeshwant/c-project-source.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision cc0aa66aea51584cef59ee3a2de3cf7f72533019 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f cc0aa66aea51584cef59ee3a2de3cf7f72533019 # timeout=10
+Commit message: "added all c source files"
+ > git rev-list --no-walk cc0aa66aea51584cef59ee3a2de3cf7f72533019 # timeout=10
+[c-project-source] $ /bin/sh -xe /tmp/jenkins3460175864907404540.sh
++ cd /var/lib/jenkins/workspace/c-project-source
++ make ABC.exe
+/tmp/jenkins3460175864907404540.sh: line 4: make: command not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

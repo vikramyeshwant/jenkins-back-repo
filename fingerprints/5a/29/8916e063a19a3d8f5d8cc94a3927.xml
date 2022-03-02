@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-02-28 10:02:37.354 UTC</timestamp>
+  <md5sum>5a298916e063a19a3d8f5d8cc94a3927</md5sum>
+  <fileName>Credential id=6ce492c8-ac06-405b-88dd-3fae46ed1ae7 name=vikramyeshwant/******</fileName>
+  <usages>
+    <entry>
+      <string>abc</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>
